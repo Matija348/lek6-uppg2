@@ -1,0 +1,42 @@
+body{
+display: grid;
+grid-template-columns: 20% 80%;
+grid-template-rows: 13vh 10vh 65vh 7vh;
+gap: 2px;
+}
+
+.logo{
+border: 2px solid black;
+border-radius: 5px;
+background-image: url(img/logo.png);
+}
+
+header{
+   border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+aside{
+background-image: url(img/dragon_side.png);
+padding-bottom: 190%;
+border: 2px solid black;
+}
+
+nav{
+border: 2px solid black;
+text-align: center;
+background-color: aqua;
+}
+
+main{
+background-color: aqua;
+border: 2px solid black;
+}
+
+footer{
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid black;
+}
