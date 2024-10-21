@@ -1,7 +1,7 @@
 body{
 display: grid;
 grid-template-columns: 20% 80%;
-grid-template-rows: 13vh 10vh 65vh 7vh;
+grid-template-rows: 13vh 10vh 100vh 7vh;
 gap: 2px;
 }
 
@@ -20,7 +20,7 @@ header{
 
 aside{
 background-image: url(img/dragon_side.png);
-padding-bottom: 190%;
+padding-bottom: 300%;
 border: 2px solid black;
 }
 
@@ -36,15 +36,17 @@ border: 2px solid black;
 display: grid;
 grid-template-columns: 33% 33% 33%;
 grid-template-rows: 33vh 33vh 33vh;
+flex-direction: row;
 }
 
 main img{
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    height: 90%;
 }
 
 footer{
     background-color: aqua;
     text-align: center;
     border: 2px solid black;
+    padding-bottom: 10%;
 }
